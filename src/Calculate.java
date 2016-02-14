@@ -39,7 +39,7 @@ public float result = 0;
         }
         return result;
     }
-    public String getCalculate() throws IOException { /*определение знака для вычисления*/
+    public String getCalculate() throws IOException {/*Получение знака*/
         BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
         String choose = read.readLine();
         return choose;
